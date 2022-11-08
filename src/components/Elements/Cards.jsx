@@ -45,6 +45,23 @@ const Cards = () => {
             )
            })}
           </div>
+          <div className="row mt-5 mb-5 detail_botm">
+            <div className="col-md-6 col-12">
+                <h1>YOUR STEPS COUNT  <br />  WITH Marathon!</h1>
+                <div className="d-flex  align-items-center ">
+                    <img src="assets/images/mobile1.svg" alt="" />
+                    <img src="assets/images/mobile2.svg" className="ms-3" alt="" />
+                </div>
+            </div>
+            <div className="col-md-6 col-12">
+                <h6 className="text-end">
+                Join Our Comunity
+                </h6>
+                <div>
+
+                </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

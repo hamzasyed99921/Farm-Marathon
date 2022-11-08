@@ -14,7 +14,31 @@ const Details = () => {
             <p>Deposit CAKE Tokens and Earn MRACE</p>
           </div>
           <div className="row mt-5">
-            <div className="col-md-6 col-12">
+           {title === 'MRACE' ?  <div className="col-md-6 col-12">
+              <div className="card" style={{ paddingBottom: "60px" }}>
+                <div className="card-body">
+                  <div className="d-flex justify-content-around align-items-center">
+                    <img src="assets/images/GMT.png" className="w-25" alt="" />
+                    <div className="card_right">
+                      <h3 className="text-center">GMT</h3>
+                    </div>
+                  </div>
+                  <hr className="mx-5" />
+
+                  <div className="row botm_txt">
+                    <div className="col-6 text-center">
+                      <h6>Earned</h6>
+                      <h6>0.00</h6>
+                    </div>
+                    <div className="col-6">
+                      <div className="butn ">
+                        <button>Harvest</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> :  <div className="col-md-6 col-12">
               <div className="card" style={{ paddingBottom: "60px" }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">
@@ -38,7 +62,7 @@ const Details = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>}
             <div className="col-md-6 col-12">
               <div className="card" style={{ paddingBottom: "60px" }}>
                 <div className="card-body">
@@ -64,49 +88,24 @@ const Details = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-6 col-12">
-              <div className="card">
-                <div className="card-body">
-                  <div className="d-flex justify-content-around align-items-center">
-                    <div className="row text-center">
-                      <div className="col-5">
-                        <img
-                          src="assets/images/GMT.png"
-                          style={{ width: "65%" }}
-                          alt=""
-                        />
-                      </div>
-                      <div className="col-2 d-flex align-items-center">
-                        <h4>APY: 500%</h4>
-                      </div>
-                      <div className="col-5">
-                        <img
-                          src="assets/images/logo.png"
-                          className="w-50"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <hr className="mx-5" />
+          </div>
 
-                  <div className="d-flex botm_txt justify-content-between align-items-center">
-                    <h6>Earn</h6>
-                    <h6>
-                      <span>GMT</span>
-                    </h6>
-
-                    <h6>DEPOSIT</h6>
-                    <h6>
-                      <span>MARCE</span>
-                    </h6>
-                  </div>
-                  <div className="butn mt-3 d-flex justify-content-center align-items-center">
-                    <button>Select</button>
-                  </div>
+          <div className="row mt-5 mb-5 detail_botm">
+            <div className="col-md-6 col-12">
+                <h1>YOUR STEPS COUNT  <br />  WITH Marathon!</h1>
+                <div className="d-flex  align-items-center ">
+                    <img src="assets/images/mobile1.svg" alt="" />
+                    <img src="assets/images/mobile2.svg" className="ms-3" alt="" />
                 </div>
-              </div>
-            </div> */}
+            </div>
+            <div className="col-md-6 col-12">
+                <h2 className="text-end">
+                Join Our Comunity
+                </h2>
+                <div>
+
+                </div>
+            </div>
           </div>
         </div>
       </div>

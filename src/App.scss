@@ -4,10 +4,9 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  
 }
-body{
-    font-family: "Bakbak One", cursive;
+body {
+  font-family: "Bakbak One", cursive;
 }
 
 .navbar {
@@ -59,140 +58,179 @@ body{
         font-stretch: normal;
         text-align: center;
       }
-      p{
+      p {
         color: #a5abb3;
-    font-size: 17px;
-    font-weight: 600;
+        font-size: 17px;
+        font-weight: 600;
       }
     }
-    .card{
-        border-color: #0054cf;
-        border-style: solid;
-        border-width: 1px 5px 10px 1px;
-        border-radius: 10px;
-        padding: 10px 0 20px;
-        .card_right{
-            h2{
-                font-size: 26px;
-                font-weight: 800;
-            }
-            h3{
-                color: #0054cf;
-                font-weight: 800;
-            }
+    .card {
+      border-color: #0054cf;
+      border-style: solid;
+      border-width: 1px 5px 10px 1px;
+      border-radius: 10px;
+      padding: 10px 0 20px;
+      .card_right {
+        h2 {
+          font-size: 26px;
+          font-weight: 800;
         }
-        .botm_txt{
-            padding: 0px 32px;
-            h6{
-                font-size: 18px!important;
-            font-weight: 700!important;
-            color: #a5abb3;
-            span{
-                color: #000;
-            }
-            }
+        h3 {
+          color: #0054cf;
+          font-weight: 800;
         }
-        .butn{
-            button{
-                border: 2px solid #1ddafd;
-                -webkit-backdrop-filter: blur(15px);
-                backdrop-filter: blur(15px);
-                height: 52px;
-                width: 200px;
-                border-radius: 10px;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 19px;
-                line-height: 170%;
-                display: flex;
-                background: transparent;
-                align-items: center;
-                text-align: center;
-                justify-content: center;
-                letter-spacing: .005em;
-                color: #1ddafd!important;
-                
-                &:hover{
-                    color: #fff !important;
-                    background-color: #1ddafd;
-                }
-            }
+      }
+      .botm_txt {
+        padding: 0px 32px;
+        h6 {
+          font-size: 18px !important;
+          font-weight: 700 !important;
+          color: #a5abb3;
+          span {
+            color: #000;
+          }
         }
+      }
+      .butn {
+        button {
+          border: 2px solid #1ddafd;
+          -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+          height: 52px;
+          width: 200px;
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 170%;
+          display: flex;
+          background: transparent;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          letter-spacing: 0.005em;
+          color: #1ddafd !important;
+
+          &:hover {
+            color: #fff !important;
+            background-color: #1ddafd;
+          }
+        }
+      }
     }
   }
 }
 
+.card_bg {
+  .container {
+    h2 {
+      font-size: 2.5rem;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 4px;
+      -webkit-text-stroke-color: #0054cf;
+      font-weight: 900;
+      font-stretch: normal;
+      text-align: center;
+    }
+    .card {
+      border-color: #0054cf;
+      border-style: solid;
+      border-width: 1px 5px 10px 1px;
+      border-radius: 10px;
+      padding: 10px 0 20px;
+      .card-title {
+        h4 {
+          color: #0054cf;
+          font-weight: 700;
+        }
+      }
+      .card_right {
+        h2 {
+          font-size: 26px;
+          font-weight: 800;
+        }
+        h3 {
+          color: #0054cf;
+          font-weight: 800;
+        }
+      }
+      .botm_txt {
+        // padding: 0px 32px;
+        h6 {
+          font-size: 18px !important;
+          font-weight: 700 !important;
+          color: #a5abb3;
+          span {
+            color: #000;
+          }
+        }
+      }
+      .butn {
+        button {
+          border: 2px solid #1ddafd;
+          -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+          height: 52px;
+          width: 200px;
+          border-radius: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 170%;
+          display: flex;
+          background: transparent;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          letter-spacing: 0.005em;
+          color: #1ddafd !important;
 
-.card_bg{
-    .container{
-        h2{
-            font-size: 2.5rem;
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke-width: 4px;
-            -webkit-text-stroke-color: #0054cf;
-            font-weight: 900;
-            font-stretch: normal;
-            text-align: center;
+          &:hover {
+            color: #fff !important;
+            background-color: #1ddafd;
+          }
         }
-        .card{
-            border-color: #0054cf;
-            border-style: solid;
-            border-width: 1px 5px 10px 1px;
-            border-radius: 10px;
-            padding: 10px 0 20px;
-            .card-title{
-                h4{
-                    color: #0054cf;
-                    font-weight: 700;                
-                }
-            }
-            .card_right{
-                h2{
-                    font-size: 26px;
-                    font-weight: 800;
-                }
-                h3{
-                    color: #0054cf;
-                    font-weight: 800;
-                }
-            }
-            .botm_txt{
-                // padding: 0px 32px;
-                h6{
-                    font-size: 18px!important;
-                font-weight: 700!important;
-                color: #a5abb3;
-                span{
-                    color: #000;
-                }
-                }
-            }
-            .butn{
-                button{
-                    border: 2px solid #1ddafd;
-                    -webkit-backdrop-filter: blur(15px);
-                    backdrop-filter: blur(15px);
-                    height: 52px;
-                    width: 200px;
-                    border-radius: 10px;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 19px;
-                    line-height: 170%;
-                    display: flex;
-                    background: transparent;
-                    align-items: center;
-                    text-align: center;
-                    justify-content: center;
-                    letter-spacing: .005em;
-                    color: #1ddafd!important;
-                    
-                    &:hover{
-                        color: #fff !important;
-                        background-color: #1ddafd;
-                    }
-                }
-            }
-        }
+      }
+    }
+}
+}
+.detail_botm {
+  h1 {
+    font-family: "Bakbak One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    background: linear-gradient(97.34deg,#72f596 -17.27%,#1ddafd 97.19%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-end{
+    font-family: "Bakbak One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;font-family: "Bakbak One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+  }
+}
+
+.footer{
+    .footer_logo{
+        mix-blend-mode: luminosity;
+    opacity: .5;
+    width: 20%!important;
+    }
+    p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    letter-spacing: .005em;
+    color: #a5abb3;
+    padding-top: 20px;
     }
 }

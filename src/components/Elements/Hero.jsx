@@ -18,7 +18,7 @@ const Hero = () => {
             <p>Stake your tokens to earn more $MRACE.</p>
           </div>
           <div className="row mt-5">
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-4">
               <div className="card" style={{paddingBottom: '60px'}}>
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">
@@ -52,7 +52,7 @@ const Hero = () => {
 
           {data.map((val) => {
             return(
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-4">
               <div className="card">
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">

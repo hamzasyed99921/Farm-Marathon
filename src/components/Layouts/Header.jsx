@@ -5,7 +5,7 @@ const Header = () => {
     <>
        <nav className="navbar navbar-expand-lg  bg-white" style={{zIndex: '1'}} id="navbar_top">
         <div className="container">
-          <div className='d-flex justify-content-between align-items-center w-100'>
+          <div className='d-flex justify-content-between align-items-center w-100 flex-wrap'>
           <Link className="navbar-brand" to="/">
             <img
               src="assets/images/logo.png"
@@ -18,7 +18,7 @@ const Header = () => {
             <a href="#">Connect Wallet</a>
           </div>
           </div>
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -28,7 +28,7 @@ const Header = () => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon" />
-          </button>
+          </button> */}
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
            
           </div>

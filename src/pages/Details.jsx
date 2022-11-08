@@ -14,7 +14,7 @@ const Details = () => {
             <p>Deposit CAKE Tokens and Earn MRACE</p>
           </div>
           <div className="row mt-5">
-           {title === 'MRACE' ?  <div className="col-md-6 col-12">
+           {title === 'MRACE' ?  <div className="col-md-6 col-12 mt-4">
               <div className="card" style={{ paddingBottom: "60px" }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">
@@ -38,7 +38,7 @@ const Details = () => {
                   </div>
                 </div>
               </div>
-            </div> :  <div className="col-md-6 col-12">
+            </div> :  <div className="col-md-6 col-12 mt-4">
               <div className="card" style={{ paddingBottom: "60px" }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">
@@ -63,7 +63,7 @@ const Details = () => {
                 </div>
               </div>
             </div>}
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-4">
               <div className="card" style={{ paddingBottom: "60px" }}>
                 <div className="card-body">
                   <div className="d-flex justify-content-around align-items-center">
